@@ -1,0 +1,45 @@
+state,district,year,month,gender,age_group,area_type,enrolments,updates,successful_updates
+Madhya Pradesh,Bhopal,2024,1,Female,18-25,Urban,1200,350,320
+Madhya Pradesh,Bhopal,2024,2,Male,18-25,Urban,1100,310,285
+Madhya Pradesh,Indore,2024,1,Female,26-40,Urban,980,280,250
+Madhya Pradesh,Indore,2024,2,Male,26-40,Urban,1010,290,260
+Madhya Pradesh,Jhabua,2024,1,Female,0-5,Rural,460,90,70
+Madhya Pradesh,Jhabua,2024,2,Male,0-5,Rural,500,100,76
+Maharashtra,Mumbai,2024,1,Female,18-25,Urban,2100,760,700
+Maharashtra,Mumbai,2024,2,Male,18-25,Urban,2200,810,750
+Maharashtra,Pune,2024,1,Female,26-40,Urban,1600,500,465
+Maharashtra,Pune,2024,2,Male,26-40,Urban,1700,540,500
+Bihar,Patna,2024,1,Female,18-25,Urban,1350,390,330
+Bihar,Patna,2024,2,Male,18-25,Urban,1400,410,360
+Bihar,Gaya,2024,1,Female,60+,Rural,600,160,110
+Bihar,Gaya,2024,2,Male,60+,Rural,650,180,125
+Rajasthan,Jaipur,2024,1,Female,18-25,Urban,1280,370,340
+Rajasthan,Jaipur,2024,2,Male,18-25,Urban,1320,390,355
+Rajasthan,Barmer,2024,1,Female,0-5,Rural,520,105,75
+Rajasthan,Barmer,2024,2,Male,0-5,Rural,550,112,80
+Tamil Nadu,Chennai,2024,1,Female,26-40,Urban,1750,610,580
+Tamil Nadu,Chennai,2024,2,Male,26-40,Urban,1780,640,600
+Tamil Nadu,Madurai,2024,1,Female,60+,Rural,700,190,150
+Tamil Nadu,Madurai,2024,2,Male,60+,Rural,760,210,165
+Madhya Pradesh,Bhopal,2025,1,Female,18-25,Urban,1500,530,500
+Madhya Pradesh,Bhopal,2025,2,Male,18-25,Urban,1450,490,455
+Madhya Pradesh,Indore,2025,1,Female,26-40,Urban,1250,430,395
+Madhya Pradesh,Indore,2025,2,Male,26-40,Urban,1300,450,410
+Madhya Pradesh,Jhabua,2025,1,Female,0-5,Rural,610,170,130
+Madhya Pradesh,Jhabua,2025,2,Male,0-5,Rural,650,190,145
+Maharashtra,Mumbai,2025,1,Female,18-25,Urban,2600,950,900
+Maharashtra,Mumbai,2025,2,Male,18-25,Urban,2700,980,920
+Maharashtra,Pune,2025,1,Female,26-40,Urban,2100,720,680
+Maharashtra,Pune,2025,2,Male,26-40,Urban,2200,760,710
+Bihar,Patna,2025,1,Female,18-25,Urban,1600,530,480
+Bihar,Patna,2025,2,Male,18-25,Urban,1700,560,510
+Bihar,Gaya,2025,1,Female,60+,Rural,720,260,190
+Bihar,Gaya,2025,2,Male,60+,Rural,780,280,205
+Rajasthan,Jaipur,2025,1,Female,18-25,Urban,1580,510,470
+Rajasthan,Jaipur,2025,2,Male,18-25,Urban,1650,540,500
+Rajasthan,Barmer,2025,1,Female,0-5,Rural,680,210,150
+Rajasthan,Barmer,2025,2,Male,0-5,Rural,720,230,165
+Tamil Nadu,Chennai,2025,1,Female,26-40,Urban,2300,820,790
+Tamil Nadu,Chennai,2025,2,Male,26-40,Urban,2350,850,810
+Tamil Nadu,Madurai,2025,1,Female,60+,Rural,850,300,245
+Tamil Nadu,Madurai,2025,2,Male,60+,Rural,900,330,270

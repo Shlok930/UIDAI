@@ -1,0 +1,33 @@
+{
+  "name": "aadhaar-insightx-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=--max-http-header-size=32768 next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "framer-motion": "latest",
+    "gsap": "^3.15.0",
+    "lucide-react": "latest",
+    "next": "15.1.4",
+    "postcss": "latest",
+    "react": "19.0.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "19.0.0",
+    "react-is": "^19.2.7",
+    "recharts": "latest",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.7.2"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
+  }
+}
