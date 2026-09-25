@@ -1,6 +1,47 @@
-node_modules
-.next
-venv
-__pycache__
+# Dependencies
+node_modules/
+venv/
+.venv/
+
+# Next.js
+.next/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Data files - DO NOT PUSH
+*.csv
+*.xlsx
+*.xls
+
+# Logs
+*.log
+backend.log
+frontend.log
+
+# Environment variables
 .env
+.env.local
+.env.*.local
+
+# OS
 .DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Screenshots / media
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4

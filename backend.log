@@ -2,3 +2,73 @@ INFO:     Started server process [14616]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:58327 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53705 - "GET /api/district-ranking HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60695 - "GET /api/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57299 - "GET /api/trends HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54205 - "GET /api/forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57299 - "GET /api/age-distribution HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62570 - "GET /api/state-ranking HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54205 - "GET /api/update-types HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57299 - "GET /api/biometric/state-ranking HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62570 - "GET /api/biometric/trends HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57299 - "GET /api/biometric/forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62570 - "GET /api/demographic/state-ranking HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57299 - "GET /api/demographic/trends HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54743 - "GET /api/kpis HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57299 - "GET /api/demographic/forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60695 - "GET /api/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53705 - "GET /api/inclusion-index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62570 - "GET /api/demographic/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54205 - "GET /api/biometric/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49764 - "GET /api/trends HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62395 - "GET /api/district-ranking HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55275 - "GET /api/state-ranking HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55275 - "GET /api/age-distribution HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52292 - "GET /api/forecast HTTP/1.1" 200 OK
+Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:     127.0.0.1:49961 - "GET /api/state-ranking HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56964 - "GET /api/trends HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62015 - "GET /api/district-ranking HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60528 - "GET /api/forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62015 - "GET /api/age-distribution HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60528 - "GET /api/update-types HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49961 - "GET /api/inclusion-index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62015 - "GET /api/biometric/state-ranking HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60528 - "GET /api/biometric/trends HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62015 - "GET /api/biometric/forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60528 - "GET /api/demographic/state-ranking HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55173 - "GET /api/kpis HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62015 - "GET /api/demographic/trends HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56098 - "GET /api/state-ranking HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55173 - "GET /api/demographic/forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56964 - "GET /api/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49990 - "GET /api/district-ranking HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51652 - "GET /api/trends HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51652 - "GET /api/age-distribution HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51652 - "GET /api/update-types HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56098 - "GET /api/inclusion-index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54044 - "GET /api/forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56098 - "GET /api/biometric/trends HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51652 - "GET /api/biometric/state-ranking HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63331 - "GET /api/kpis HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56098 - "GET /api/biometric/forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51652 - "GET /api/demographic/state-ranking HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63331 - "GET /api/demographic/trends HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51652 - "GET /api/demographic/forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49990 - "GET /api/recommendations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62626 - "GET /api/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65258 - "GET /api/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60528 - "GET /api/demographic/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56098 - "GET /api/demographic/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49961 - "GET /api/biometric/anomalies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54044 - "GET /api/biometric/anomalies HTTP/1.1" 200 OK
